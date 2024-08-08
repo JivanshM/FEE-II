@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        #container{
+            background-color: lightblue;
+            height: 80vm;
+            width: 500px;
+            border: 2px solid black;
+            display: inline-flex;
+            flex-direction: row;
+            gap: 20px;
+            /* flex-wrap: wrap; */
+
+        }
+        .items{
+            border: 2px solid black;
+            height: 200px;
+            width: 120px;
+        }
+        h1{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-Boxes</h1>
+    <div id="container">
+        <div class="items" style="background-color: lightcoral;">1</div>
+        <div class="items" style="background-color: lightgreen;">2</div>
+        <div class="items" style="background-color: lightcoral;">3</div>
+        <div class="items" style="background-color: lightgray;">4</div>
+        <div class="items" style="background-color: lightseagreen;">5</div>
+    </div>
+</body>
+</html>

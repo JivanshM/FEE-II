@@ -1,0 +1,7 @@
+h3{
+    text-decoration:line-through;
+    border: 3px dotted blue;
+    padding: 20px;
+    font-size: 25px;
+    color: brown;
+}

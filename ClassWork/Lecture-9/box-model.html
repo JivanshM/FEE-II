@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            /* border: 2px solid red; */
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            padding: 20px 10px 5px;
+            margin: 20px 10px 5px;
+            border: 10px solid blue;
+            display: inline-block;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+        p, ul{
+            padding: .5em;
+            border: rebeccapurple 2px solid;
+        }
+        li{
+            border: 2px solid blue;
+        }
+        .block{
+            width: 200px;
+            height: 200px;
+            padding: 20px 10px 5px;
+            margin: 20px 10px 5px;
+            border: 10px solid blue;
+            display:inline-block;
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>I am a paragraph. A short one.</p>
+        <ul>
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ul>
+    </div>
+    <div class="block">This is a div</div> 
+</body>
+</html>
