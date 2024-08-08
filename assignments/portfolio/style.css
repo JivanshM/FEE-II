@@ -1,0 +1,153 @@
+@font-face {
+    font-family: hacked;
+    src: url(/assets/HACKED.ttf);
+ }
+ .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300,400,500,600,700,800,900;
+  font-style: normal;
+}
+.nanum-gothic coding-regular {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.readex-pro {
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 160,200,300,400,700;
+    font-style: normal;
+    font-variation-settings:
+      "HEXP" 0;
+  }
+ @keyframes colorChange {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+  }
+  
+.active{
+    color: red;
+
+}
+
+.active_about{
+    color: saddlebrown;
+}
+#box{
+    box-shadow: 0px 0px 10px 1px #f5f8f8;
+    
+    
+}
+
+
+.nav_icons{
+    transition: all 0.2s ease-in-out;
+    background-color: transparent;
+    text-transform: uppercase;
+  letter-spacing: 0.15em;
+    
+}
+.nav_icons:hover{
+    transform: translateY(-3px);
+    color: red;
+}
+
+.content{
+    font-family: open;
+}
+
+
+.about_icons{
+    color: black;
+    font-weight: 700;
+}
+
+.about_icons:hover{
+    transform: translateY(-3px); 
+
+}
+
+#brand{
+    font-family: Nanum Gothic Coding;
+    font-size: 2.5em;
+    cursor:default;
+    
+   
+}
+    
+#avatar{
+    
+    box-shadow: 1px 1px 30px 5px  rgb(7, 7, 7);
+    transition-delay: 0.5s;
+    transition: all 0.5S ease-in-out;
+    width: 60%; 
+    height: 80%; 
+    border-radius: 100%; 
+    position: relative; 
+    left: 20%; 
+
+}
+
+.social_icons{
+    top: 87%; 
+    gap: 12%; 
+    left: 8%; 
+    width: 82%;
+}
+
+.overlay-text {
+    color: red;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%); /* Center the text */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.line{
+    line-height: 27px;
+}
+
+.home_button{
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.home_button:hover{
+    background-color: rgb(86, 88, 85);
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .main_div{
+        flex-direction: column;
+    }
+    
+    #avatar{
+        width: 40%;
+        left: 27%;
+    }
+
+    .social_icons{
+        gap: 0;
+        top: 100%;
+        left: 6%;
+    }
+
+    #content_div{
+       left: 12%;
+    }
+    
+}
